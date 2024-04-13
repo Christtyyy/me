@@ -429,7 +429,7 @@ article:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 70%;
+  width: 90%;
   padding: 0 15px;
 }
 
