@@ -5,7 +5,7 @@ body {
   font-family: 'Open Sans';
   font-size: 1.3em;
   padding: 0;
-  margin: 0;
+  margin: 0px;
   
 }
 a {
@@ -38,6 +38,8 @@ a {
 .content {
   padding-top: 52px;
    background: White;
+    margin: 0px; /* Center the content horizontally */
+
 }
 .anchor {
   display: block; /*this is important!*/
@@ -78,9 +80,20 @@ a {
   min-width: 200px;
   padding: 50px 100px;
 }
-#page1 {background: Black;}
-#page2 {background: Black;}
-#page3 {background: Black;}
+#page1 {
+  background: Black;
+  margin:0px;
+  padding:30px;
+  
+}
+#page2 {background: Black;
+  background: Black;
+  margin:0px;
+  padding:30px;}
+#page3 {background: Black;
+  background: Black;
+  margin:0px;
+  padding:30px;}
 
 
 .image-text-container {
@@ -106,6 +119,7 @@ a {
   color: White;
 }
 footer {
+  
   min-height: 200px;
   padding: 100px;
   background: Black;
@@ -131,16 +145,13 @@ footer p {
 }
 
 .navbar #timer {
-  font-size: px;
-  width: 200px;
-  padding: 15px;  
-  spacing:20 px;
-  margin-top:0px;
+  
+  margin-top:-15px;
   color: White;
   margin-right:30px;
   font-family: 'Press Start 2P', system-ui;
   font-size: 11.5px;
-  
+  float: right;
   
 }
 
@@ -164,6 +175,8 @@ footer p {
 }
 
 
+
+
 /* Link Style 2 */
 .link2{
     color:#ddd;
@@ -182,11 +195,14 @@ footer p {
 
 
 .content {
-  margin: 0 auto; /* Center the content horizontally */
+  margin: 0px; /* Center the content horizontally */
   max-width: 900px; /* Set maximum width of content */
-  padding: 0 20px; /* Add space on the left and right sides */
-  background-color:Black;
+  min-width: 0px;
+  padding: 0px 0; /* Add space on the top and bottom, no padding on left and right */
+  background-color: black;
+  spacing: 0px;
 }
+
 
 footer {
   margin-top: 0px; /* Add space between content and footer */
@@ -302,18 +318,26 @@ footer {
 .container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  
 }
 
 
 .column {
   flex: 1;
   padding: 20px;
+  font-size: .9em;
   box-sizing: border-box;
+  margin: -20px;
+
+
 }
 
 .column h2 {
   color: White;
-  font-size: 13px;
+  font-size: 1em;
+  
+
   
 }
 
@@ -324,14 +348,17 @@ footer {
 
   .column {
     flex: 1 0 auto;
+    
+    
   }
 }
 
 .paragraph {
-  font-size: 14px;
+ 
+
 }
 .paragraph2 {
-  font-size: 10px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -429,8 +456,8 @@ article:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 90%;
-  padding: 0 15px;
+  width: 70%;
+  padding: 0 25px;
 }
 
 .content-container .article-title {
@@ -438,7 +465,6 @@ article:hover {
   padding: 15px 0;
   margin: 0;
   font-size: 18px;
-  font-family: "Noticia Text", serif;
   
   color: White;
   border-bottom: 2px solid #eee;
@@ -494,7 +520,6 @@ article:hover {
 .content-container .article-content {
   overflow: hidden;
   text-align: justify;
-  font-family: "Noticia Text", serif;
  color: White;
   padding: 5px; /* Add padding for better readability */
   font-size: 12px; /* Set font size to make the text tiny */
