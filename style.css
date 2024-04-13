@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,800);
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   /* CSS rules for small screens */
-}
+
 
 body {
   background-color:Black;
@@ -501,4 +501,5 @@ article:hover {
  color: White;
   padding: 5px; /* Add padding for better readability */
   font-size: 12px; /* Set font size to make the text tiny */
+}
 }
