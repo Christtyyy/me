@@ -238,7 +238,7 @@ footer {
 }
 
 /* On smaller screens, decrease the font size */
-@media screen and (max-width: 600px) {*/
+@media screen and (max-width: 600px) {
   .navbar a, .navbar .btn, .navbar .brand {
     float: none;
     display: block;
@@ -247,7 +247,7 @@ footer {
   .navbar .btn {
     margin: 0px;
     background: Blue;
-    width: 90px; /* Adjust the value to your desired height */
+    width: 20px; /* Adjust the value to your desired height */
 
   }
 }
