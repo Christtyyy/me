@@ -247,7 +247,7 @@ footer {
   .navbar .btn {
     margin: 0px;
     background: Blue;
-    width: 20px; /* Adjust the value to your desired height */
+    width: 90px; /* Adjust the value to your desired height */
 
   }
 }
@@ -310,7 +310,7 @@ footer {
 
 .column {
   flex: 1;
-  padding: 20px;
+  padding: 5px;
   box-sizing: border-box;
 }
 
