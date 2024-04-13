@@ -186,8 +186,8 @@ footer p {
 
 .content {
   margin: 0 auto; /* Center the content horizontally */
-  max-width: 1300px; /* Set maximum width of content */
-  padding: 0px; /* Add space on the left and right sides */
+  max-width: 900px; /* Set maximum width of content */
+  padding: 90px; /* Add space on the left and right sides */
   background-color:Black;
 }
 
