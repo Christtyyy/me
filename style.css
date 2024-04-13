@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,800);
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {}
   /* CSS rules for small screens */
 
 
@@ -187,8 +187,8 @@ footer p {
 .content {
   margin: 0 auto; /* Center the content horizontally */
   max-width: 900px; /* Set maximum width of content */
-  padding: 90px; /* Add space on the left and right sides */
-  background-color:Black;
+  padding: 20px; /* Add space on the left and right sides */
+  background-color:Blue;
 }
 
 footer {
@@ -502,4 +502,4 @@ article:hover {
   padding: 5px; /* Add padding for better readability */
   font-size: 12px; /* Set font size to make the text tiny */
 }
-}
+
