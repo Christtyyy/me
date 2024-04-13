@@ -238,7 +238,7 @@ footer {
 }
 
 /* On smaller screens, decrease the font size */
-/*@media screen and (max-width: 600px) {*/
+@media screen and (max-width: 600px) {*/
   .navbar a, .navbar .btn, .navbar .brand {
     float: none;
     display: block;
@@ -250,7 +250,7 @@ footer {
     width: 90px; /* Adjust the value to your desired height */
 
   }
-/*}*/
+}
 .navbar .btn:hover {
   background: Blue;
   
@@ -320,7 +320,7 @@ footer {
   
 }
 
-@media (max-width: 200px) {
+@media (max-width: 700px) {
   .container {
     flex-direction: column;
   }
