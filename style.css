@@ -361,3 +361,166 @@ footer {
   font-size: 14px;
   font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+  .noticia-text-regular {
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noticia-text-bold {
+  font-family: "Noticia Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.noticia-text-regular-italic {
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.noticia-text-bold-italic {
+  font-family: "Noticia Text", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+article {
+  position: relative;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 1000px;
+  height: 200px;
+  border: 1px solid #ccc;
+  display: flex;
+  background-color: #000005;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  padding-bottom: 10px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+article:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* More prominent shadow */
+  transform: scale(1.02); /* Slightly scale up */
+}
+
+.article-image-container {
+  width: 0%;
+  height: auto;
+  margin: 16px;
+  overflow: hidden;
+}
+
+.article-image-container img {
+  width: 00%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 25px;
+}
+
+.content-container .article-title {
+  text-align: left;
+  padding: 15px 0;
+  margin: 0;
+  font-size: 18px;
+  
+  color: White;
+  border-bottom: 2px solid #eee;
+}
+
+.content-container .article-content {
+  overflow: hidden;
+  text-align: justify;
+  color: Black;
+}
+
+
+.read-more-btn {
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  padding: 8px 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.read-more-btn:hover {
+  background-color: Blue;
+  color: black;
+  border-radius: 30px;
+}
+
+.read-more-btn1 {
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  padding: 8px 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.read-more-btn1:hover {
+  background-color: Blue;
+  color: black;
+  border-radius: 30px;
+}
+
+.content-container .article-content {
+  overflow: hidden;
+  text-align: justify;
+ color: White;
+  padding: 5px; /* Add padding for better readability */
+  font-size: 12px; /* Set font size to make the text tiny */
+}
